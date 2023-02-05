@@ -1,0 +1,37 @@
+*.csproj.user
+*.obj
+*.pdb
+*.user
+*.suo
+*.bak
+*.cache
+*.exe
+*.tmp
+.vs/
+bin/
+obj/
+packages/
+AppPackages/
+Publish/
+GeneratedArtifacts/
+LightSwitch/LightSwitch/
+App_Data/
+Web/Customer Office/Frontend/obj/CodeGen/Templates/
+Web/Customer Office/Frontend/obj/CodeGen/Views/Shared/Branding/
+Web/Customer Office/Frontend/obj/CodeGen/Views/Shared/System/_*.cshtml
+Web/Customer Office/Frontend/obj/CodeGen/Views/Shared/_*.cshtml
+Web/Customer Office/Frontend/obj/CodeGen/Views/Shared/*.html
+Web/Manager Office/Frontend/assets/
+Web/Manager Office/Frontend/obj/CodeGen/Templates/
+Web/Manager Office/Frontend/obj/CodeGen/Views/Shared/Branding/
+Web/Manager Office/Frontend/obj/CodeGen/Views/Shared/System/_*.cshtml
+Web/Manager Office/Frontend/obj/CodeGen/Views/Shared/_*.cshtml
+Web/Manager Office/Frontend/obj/CodeGen/Views/Shared/*.html
+Web/Manager Office/Frontend/Templates/
+Web/Manager Office/Frontend/Views/Shared/Branding/
+Web/Manager Office/Frontend/Views/Shared/System/_*.cshtml
+Web/Manager Office/Frontend/Views/Shared/_*.cshtml
+Web/Manager Office/Frontend/Views/Shared/*.html
+*.mdf
+*.ldf
+*.csproj.user
