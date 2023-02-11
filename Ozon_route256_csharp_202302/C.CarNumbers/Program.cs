@@ -2,26 +2,13 @@
 {
     public class Program
     {
-        private const string testinput = @"R48FAO00OOO0OOA99OKA99OK
-R48FAO00OOO0OOA99OKA99O
-A9PQ
-A9PQA
-A99AAA99AAA99AAA99AA
-AP9QA";
-
         public static void Main(string[] args)
         {
             var pattern1 = new Pattern(Type.Letter, Type.Numeric, Type.Letter, Type.Letter);
             var pattern2 = new Pattern(Type.Letter, Type.Numeric, Type.Numeric, Type.Letter, Type.Letter);
 
             var parser = new Parser(pattern1, pattern2);
-
-            var a = testinput.Split("\r\n");
-            foreach (var line in a)
-            {
-                Console.WriteLine(parser.Parse(line));
-            }
-
+            
             var count = int.Parse(Console.ReadLine() ?? "0");
             for (int i = 0; i < count; i++)
                 Console.WriteLine(parser.Parse(Console.ReadLine() ?? string.Empty));
